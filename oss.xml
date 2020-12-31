@@ -2,6 +2,7 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <remote name="tone" fetch="https://github.com/Tone-keep-on-4-4/" />
+<remote name="lineage" fetch="https://github.com/LineageOS/" />
 <remove-project name="LineageOS/android_hardware_qcom_camera" />
 <remove-project name="LineageOS/android_hardware_qcom_fm" />
 <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
@@ -25,7 +26,7 @@
 <project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/projection" name="vendor-sony-oss-projection" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/release-keys" name="release-keys" groups="device" remote="sony" revision="master" />
-<project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/thermanager" name="android_hardware_sony_thermanager" groups="device" remote="lineage" revision="lineage-16.0" />
 <project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/transpower" name="transpower" groups="device" remote="tone" revision="p-mr1" />
 <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="p-mr1" />
